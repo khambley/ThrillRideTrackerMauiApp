@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThrillRideTrackerMauiApp.Pages.NewEntryPage"
+             Title="Add Ride">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" />
+
+    </ContentPage.ToolbarItems>
+ <TableView Intent="Form">
+            <TableView.Root>
+                <TableSection>
+                    <EntryCell Label="Ride Date" />
+                    <EntryCell Label="Ride Name" />
+                    <EntryCell Label="Ride Type"/>
+                    <EntryCell Label="Web Link" />
+                    <EntryCell Label="Height" Keyboard="Numeric"/>
+                    <EntryCell Label="Top Speed" Keyboard="Numeric"/>
+                    <EntryCell Label="Rider Name" />
+                    <EntryCell Label="First Ride?" />
+                    <EntryCell Label="Rating" Keyboard="Numeric" />
+                    <EntryCell Label="Comments" />
+                    <EntryCell Label="Build Date" />
+                    <EntryCell Label="Park Name" />
+                    <EntryCell Label="City" />
+                    <EntryCell Label="State" />
+                    <EntryCell Label="Latitude" Keyboard="Numeric" />
+                    <EntryCell Label="Longitude" Keyboard="Numeric" />
+                    <EntryCell Label="Notes" />
+
+                </TableSection>
+            </TableView.Root>
+        </TableView>
+</ContentPage>

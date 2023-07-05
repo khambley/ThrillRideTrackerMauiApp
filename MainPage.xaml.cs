@@ -1,4 +1,5 @@
 ﻿using ThrillRideTrackerMauiApp.Models;
+using ThrillRideTrackerMauiApp.Pages;
 
 namespace ThrillRideTrackerMauiApp;
 
@@ -77,7 +78,11 @@ public partial class MainPage : ContentPage
         rides.ItemsSource = items;
     }
 
-	
+    void New_Clicked(System.Object sender, System.EventArgs e)
+    {
+        Navigation.PushAsync(new NewEntryPage());
+    }
+
 }
 
 
