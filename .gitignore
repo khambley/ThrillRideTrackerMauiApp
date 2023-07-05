@@ -403,3 +403,6 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+
+# AppSettings file containing API Keys
+AppSettings.cs
